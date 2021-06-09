@@ -1,0 +1,7 @@
+2021-06-10 01:35:41  [TC1_post_request] (main:) " response data is "{
+  "last_name": "kumar",
+  "id": "DOP7128992",
+  "first_name": "Manik",
+  "email": "mas@je.com"
+}
+2021-06-10 01:35:42  [TC2_get_request] (main:) " response code is "200

@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 10 00:21:16 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6087 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.testing.TestSteps.TC1_post_request.TC1_post_request()'><b>TC1_post_request</b><br>Test class: org.testing.TestSteps.TC1_post_request</td>
+<td></td>
+<td>3</td>
+<td>org.testing.TestSteps.TC1_post_request@49993335</td></tr>
+<tr>
+<td title='org.testing.TestSteps.TC2_get_request.TC2_get_request()'><b>TC2_get_request</b><br>Test class: org.testing.TestSteps.TC2_get_request</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestSteps.TC2_get_request@20322d26</td></tr>
+<tr>
+<td title='org.testing.TestSteps.TC3_getall_request.TC3_getall_request()'><b>TC3_getall_request</b><br>Test class: org.testing.TestSteps.TC3_getall_request</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestSteps.TC3_getall_request@192b07fd</td></tr>
+<tr>
+<td title='org.testing.TestSteps.TC4_put_request.TC4_put_request()'><b>TC4_put_request</b><br>Test class: org.testing.TestSteps.TC4_put_request</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestSteps.TC4_put_request@64bfbc86</td></tr>
+<tr>
+<td title='org.testing.TestSteps.TC5_delete_request.TC5_delete_request()'><b>TC5_delete_request</b><br>Test class: org.testing.TestSteps.TC5_delete_request</td>
+<td></td>
+<td>2</td>
+<td>org.testing.TestSteps.TC5_delete_request@64bf3bbf</td></tr>
+</table><p>
+</body>
+</html>

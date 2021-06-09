@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6087" started-at="2021-06-09T18:51:16Z" finished-at="2021-06-09T18:51:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6087" started-at="2021-06-09T18:51:16Z" finished-at="2021-06-09T18:51:22Z">
+      <class name="org.testing.TestSteps.TC2_get_request">
+        <test-method status="PASS" signature="TC2_get_request()[pri:0, instance:org.testing.TestSteps.TC2_get_request@20322d26]" name="TC2_get_request" duration-ms="151" started-at="2021-06-09T18:51:19Z" finished-at="2021-06-09T18:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_get_request -->
+      </class> <!-- org.testing.TestSteps.TC2_get_request -->
+      <class name="org.testing.TestSteps.TC3_getall_request">
+        <test-method status="PASS" signature="TC3_getall_request()[pri:0, instance:org.testing.TestSteps.TC3_getall_request@192b07fd]" name="TC3_getall_request" duration-ms="106" started-at="2021-06-09T18:51:19Z" finished-at="2021-06-09T18:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_getall_request -->
+      </class> <!-- org.testing.TestSteps.TC3_getall_request -->
+      <class name="org.testing.TestSteps.TC4_put_request">
+        <test-method status="PASS" signature="TC4_put_request()[pri:0, instance:org.testing.TestSteps.TC4_put_request@64bfbc86]" name="TC4_put_request" duration-ms="132" started-at="2021-06-09T18:51:19Z" finished-at="2021-06-09T18:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_put_request -->
+      </class> <!-- org.testing.TestSteps.TC4_put_request -->
+      <class name="org.testing.TestSteps.TC1_post_request">
+        <test-method status="PASS" signature="TC1_post_request()[pri:0, instance:org.testing.TestSteps.TC1_post_request@49993335]" name="TC1_post_request" duration-ms="3559" started-at="2021-06-09T18:51:16Z" finished-at="2021-06-09T18:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_post_request -->
+      </class> <!-- org.testing.TestSteps.TC1_post_request -->
+      <class name="org.testing.TestSteps.TC5_delete_request">
+        <test-method status="PASS" signature="TC5_delete_request()[pri:0, instance:org.testing.TestSteps.TC5_delete_request@64bf3bbf]" name="TC5_delete_request" duration-ms="2050" started-at="2021-06-09T18:51:20Z" finished-at="2021-06-09T18:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_delete_request -->
+      </class> <!-- org.testing.TestSteps.TC5_delete_request -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
