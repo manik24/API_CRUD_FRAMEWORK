@@ -59,5 +59,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/eclipse/dom-2.3.0-jaxb-1.0.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
